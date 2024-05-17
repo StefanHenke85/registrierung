@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registrierung</title>
+    <title>Registrierung und Login</title>
 </head>
 <body>
     <h1>Registrierung</h1>
@@ -15,6 +15,15 @@
         <label for="password">Passwort:</label><br>
         <input type="password" id="password" name="password"><br><br>
         <input type="submit" value="Registrieren">
+    </form>
+
+    <h1>Login</h1>
+    <form action="/login" method="POST">
+        <label for="email">E-Mail:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="password">Passwort:</label><br>
+        <input type="password" id="password" name="password"><br><br>
+        <input type="submit" value="Login">
     </form>
 </body>
 </html>
